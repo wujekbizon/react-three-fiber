@@ -129,9 +129,9 @@ const Three = () => {
 
       {/* Ring */}
       <mesh rotation={[-angleToRadius(90), 0, 0]}>
-        <sphereGeometry args={[1, 32, 32, 0]} position={[10, 1, 0]} />
-
-        <meshStandardMaterial />
+        <Ring args={[1.165, 1.18, 128]} />
+        <sphereGeometry args={[0.04, 32, 32]} position={[0, 1, 0]} />
+        <meshStandardMaterial color="red" />
       </mesh>
 
       {/* Ball */}
